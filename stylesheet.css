@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#logo a {
+  background-image: url("http://tse123.com/wp-content/uploads/2012/06/logo.png");
+}
+
+.container #content {
+  background-image: linear-gradient(#AD7187, #F6C2D5);
+}
