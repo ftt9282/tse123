@@ -5,32 +5,53 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
-	<link rel="stylesheet" type="text/css" href="reset.css">>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:800" rel="stylesheet">	
 </head>
 <body>
-	<div class="container">
-		<div id="logo">
-			<img src="images/logo.png">
-				<a href="www.tse123.com"></a>
-			</img>
-		</div>
-			<div class="col-lg-10">
-			<div class="navbar navbar-default">
-				<div class="container-fluid">
+	<div class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-inner">
 
-				</div>		
-			</div>
-			</div>
-	</div>
-	<div class="container">
-		<div id="content">
-			<div class="jumbotron">
-				<h1>This is a test</h1>
+				<!-- Logo -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-target="#mainNavBar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img src="images/logo.png">
+						<a class="navbar-brand" href="#"></a>
+					</img>
+				</div>
+
+				<!-- Menu Items -->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Get A Quote</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+
 			</div>
 		</div>
 	</div>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Thinking beyond the beam is the key to success in the architect and engineer relationship</h1>
+				<button>Get A Quote</button>
+			</div>
+			<!-- Hero Background -->
+			<img id="hero" src="images/hero.jpg">
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
